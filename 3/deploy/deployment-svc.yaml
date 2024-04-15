@@ -32,5 +32,5 @@ spec:
       targetPort: 80
   selector:
     app: mywebs
-  type: ClusterIP
+  type: LoadBalancer
 ---
